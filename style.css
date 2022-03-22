@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1424px;
+  margin: auto;
+  padding-left: 240px;
+  padding-right: 240px;
+  box-sizing: border-box;
+  position: relative;
+}
+.wrap {
+  width: 355px;
+  height: 390px;
+  color: #fff;
+  background-color: aqua;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 10;
+}
+.chapter {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(206, 0, 0);
+  text-align: center;
+}
+.num {
+  font-size: 120px;
+  flex-direction: column;
+  writing-mode: vertical-lr;
+}
+.title {
+  font-size: 25px;
+}
+.prologue {
+  width: 100%;
+  height: 250px;
+  padding: 15px;
+  background-color: #000;
+  margin: auto;
+  line-height: 35px;
+  box-sizing: border-box;
+}
+.prologue > h2 {
+  font-size: 25px;
+}
+.prologue > p {
+  font-size: 20px;
+}
+.gray {
+  width: 440px;
+  height: 290px;
+  background-color: rgb(240, 240, 240);
+  position: relative;
+  left: 500px;
+  top: 35px;
+}
+.photo {
+  width: 695px;
+  height: 430px;
+  position: relative;
+  top: -150px;
+  left: 178px;
+}
+.img {
+  width: 100%;
+}
+.yticon {
+  width: 58px;
+  height: 38px;
+  position: absolute;
+  top: 215px;
+  right: -10px;
+  z-index: 30;
+  background-color: #fff;
+}
+.yticon > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.intro {
+  width: 690px;
+  background-color: rgb(238, 238, 238);
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+  top: -180px;
+  left: 40px;
+}
+.intro > h2 {
+  color: rgb(172, 0, 0);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.intro > h2::after {
+  content: " ————————————————————————";
+}
+.intro ul {
+  line-height: 30px;
+}
+.intro > ul h3 {
+  color: #fff;
+  background-color: #000;
+  font-size: 15px;
+  display: inline;
+  padding: 5px;
+}
+.intro > ul li {
+  color: rgb(107, 107, 107);
+  list-style-type: none;
+}
+.intro > ul li::before {
+  content: "・";
+  color: rgb(172, 0, 0);
+}
