@@ -112,6 +112,8 @@
 .intro > ul li {
   color: rgb(107, 107, 107);
   list-style-type: none;
+  text-indent: -1em;
+  padding-left: 1em;
 }
 .intro > ul li::before {
   content: "・";
